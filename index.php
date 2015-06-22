@@ -11,7 +11,7 @@
         <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
 
-    <body bgcolor="#000000">
+    <body bgcolor="#FF6699">
         <div class="container">
             <div class="hero-unit">
                 <h1><font face="verdana" color="yellow">Simple PHP Test Application EXTRA1!</font></h1>
