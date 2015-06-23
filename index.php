@@ -14,7 +14,7 @@
     <body bgcolor="#00FF00">
         <div class="container">
             <div class="hero-unit">
-                <h1><font face="verdana" color="yellow">Simple PHP Test Application EXTRA1!</font></h1>
+                <h1><font face="verdana" color="yellow">Simple PHP Test Application normal!</font></h1>
                 <br>
                 <br>
                 <p><font face="verdana" color="yellow" size="5">This simple PHP test application was deployed in a Runnable Sandbox!</font></p>
