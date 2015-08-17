@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+
+<?php
+// Example use of getenv()
+$ip = getenv('REMOTE_ADDR');
+
+echo "IP is" . $ip;
+?>
+
+
+
+
 <html lang="en">
 
     <head>
@@ -26,3 +37,5 @@
     </body>
 
 </html>
+
+
