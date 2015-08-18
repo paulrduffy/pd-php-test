@@ -16,7 +16,7 @@ $username = getenv("username");
 
 echo "username is " . $dbname;
 
-$password = getenv("db-password");
+$password = getenv("dbpassword");
 
 echo "password is " . $password;
 
