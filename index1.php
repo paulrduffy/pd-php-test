@@ -48,7 +48,7 @@ background-color: purple;
 </head>
 <body>
 
-<body bgcolor="#000000">
+<body bgcolor="#FFFFFF">
         
 <h1><font face="verdana" color="black">Race Results!</font></h1>
                 <br>
