@@ -13,8 +13,7 @@ echo "dbhost is " . $servername;
 
 $username = getenv("username");
 
-
-echo "username is " . $dbname;
+echo "username is " . $username;
 
 $password = getenv("dbpassword");
 
