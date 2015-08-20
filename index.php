@@ -3,7 +3,7 @@
 <?php
 // Example use of getenv()
 $ip = getenv('REMOTE_ADDR');
-
+// Need to clean up
 
 echo "The IP is" . $ip;
 
