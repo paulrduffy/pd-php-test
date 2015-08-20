@@ -3,9 +3,9 @@
 <?php
 // Example use of getenv()
 $ip = getenv('REMOTE_ADDR');
+// Need to clean up
 
-
-echo "IP is" . $ip;
+echo "The IP is" . $ip;
 
 $servername = getenv('dbhost');
 
