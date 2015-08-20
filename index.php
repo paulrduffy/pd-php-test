@@ -5,7 +5,7 @@
 $ip = getenv('REMOTE_ADDR');
 
 
-echo "IP is" . $ip;
+echo "The IP is" . $ip;
 
 $servername = getenv('dbhost');
 
