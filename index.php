@@ -30,35 +30,13 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-# $sql = "SELECT id, firstname, lastname FROM results";
-$sql = "SELECT * FROM results";
+$sql = "SELECT id, firstname, lastname FROM results";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. " - raceno: " . $row["raceno"] . "<br>" .
-     "place: " . $row["place"] . "divtot: " . $row ["divtot"] . "div: " . $row["div"] . "guntime: " . $row["guntime"] . "nettime: " . $row["nettime"] . 
-  
-
-
-  
-  "pace: " . $row["pace"] . 
-  "firstname: " . $row["firstname"] . 
-  "lastname: " . $row["lastname"] . 
- "age: " . $row["age"] . 
- 
- "gender: " . $row["gender"] . 
- "raceno: ". $row["raceno"] . 
- "city: " . $row["city"] . 
- 
- "state: " . $row["state"] . 
-
-"id: ". $row["id"] . 
-"created_at :" . $row["created_at"] . 
-"updated_at: " . $row["updated_at"] ;
-
-
+        echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. " - raceno: " . $row["raceno"] . "<br>";
     }
 } else {
     echo "0 results";
