@@ -1,49 +1,6 @@
 <!DOCTYPE html>
 
-<?php
-// Example use of getenv()
-$ip = getenv('REMOTE_ADDR');
 
-
-echo "IP is" . $ip;
-
-$servername = getenv('dbhost');
-
-echo "dbhost is " . $servername;
-
-$username = getenv("username");
-
-echo "username is " . $username;
-
-$password = getenv("dbpassword");
-
-echo "password is " . $password;
-
-$dbname = getenv("dbname");
-
-echo "dbname is " . $dbname;
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-
-$sql = "SELECT id, firstname, lastname FROM results";
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. " - raceno: " . $row["raceno"] . "<br>";
-    }
-} else {
-    echo "0 results";
-}
-$conn->close();
-
-?>
 
 <html lang="en">
 
