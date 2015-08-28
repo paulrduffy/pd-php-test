@@ -22,7 +22,7 @@
                 <p><font face="verdana" color="yellow" size="5">This simple PHP test application was deployed in a Runnable Sandbox!</font></p>
                 <br>
                 <br>
-                <p><font face="verdana" color="yellow" size="3">BitBucket integration made this really simple to get running in a Runnable Sandbox</font></p>
+                <p><font face="verdana" color="yellow" size="3">GitHub integration made this really simple to get running in a Runnable Sandbox</font></p>
             </div>
         </div>
 
