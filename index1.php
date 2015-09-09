@@ -55,7 +55,7 @@ background-color: purple;
                 <p><font face="verdana" color="black" size="5">This simple race results application is running in a Runnable Sandbox!</font></p>
                 <br>
                 <br>
-                <p><font face="verdana" color="black" size="3">GitHub integration made it really easy to get started.</font></p>
+                <p><font face="verdana" color="black" size="3">GitHub integration made it easy to get started.</font></p>
 
 
 
