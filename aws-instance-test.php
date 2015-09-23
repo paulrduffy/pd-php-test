@@ -8,6 +8,8 @@ echo 'Listing instances in this region: ' . getenv('aws_region') . PHP_EOL;
 $config['key'] = getenv('aws_access_key_id');
 $config['secret'] = getenv('aws_secret_access_key');
 $config['region'] = getenv('aws_region');
+$config['version'] = '2015-04-15';
+
 $ec2Client = \Aws\Ec2\Ec2Client::factory($config);
 
 $result = $ec2Client->DescribeInstances();
