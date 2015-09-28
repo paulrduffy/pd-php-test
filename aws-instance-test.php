@@ -3,12 +3,22 @@
 require 'vendor/autoload.php';
 $config = array();
 
+date_default_timezone_set('America/Los_Angeles');
+
 echo 'Listing instances in this region: ' . getenv('aws_region') . PHP_EOL;
 
 $config['key'] = getenv('aws_access_key_id');
 $config['secret'] = getenv('aws_secret_access_key');
+$config['credentials'
 $config['region'] = getenv('aws_region');
 $config['version'] = '2015-04-15';
+
+
+'credentials' => [
+        'key'    => 'my-access-key-id',
+        'secret' => 'my-secret-access-key'
+
+
 
 $ec2Client = \Aws\Ec2\Ec2Client::factory($config);
 
