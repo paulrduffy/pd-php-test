@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-    <body bgcolor="#0000FF">
+    <body bgcolor="#FF00FF">
         <div class="container">
             <div class="hero-unit">
                 <h1><font face="verdana" color="yellow">Very Simple PHP Test Application...</font></h1>
