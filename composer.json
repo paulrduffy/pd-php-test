@@ -2,6 +2,6 @@
     "require": {
         "aws/aws-sdk-php": "3.0",
         "launchdarkly/launchdarkly-php": "0.6.2",
-	"guzzlehttp/guzzle": "5.2.*"
+	"guzzlehttp/guzzle": "5.3.*"
 	}
 }
