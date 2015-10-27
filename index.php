@@ -26,6 +26,8 @@
     </body>
 <?php
 
+require 'vendor/autoload.php';
+
 echo "Test <br>";
 
 $client = new LaunchDarkly\LDClient("api-a919a477-ac9c-41f9-9427-26ee853251ae");
