@@ -1,5 +1,5 @@
 {
     "require": {
-        "launchdarkly/launchdarkly-php": "0.6.2"
+	"aws/aws-sdk-php": "3.0"        
 	}
 }

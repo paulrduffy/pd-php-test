@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-    <body bgcolor="#FF0000">
+    <body bgcolor="#0000FF">
         <div class="container">
             <div class="hero-unit">
                 <h1><font face="verdana" color="yellow">Very Simple PHP Test Application...</font></h1>
@@ -24,32 +24,6 @@
         </div>
 
     </body>
-<?php
-
-require 'vendor/autoload.php';
-
-echo "Test <br>";
-
-$client = new LaunchDarkly\LDClient("api-a919a477-ac9c-41f9-9427-26ee853251ae");
-
-$builder = (new LaunchDarkly\LDUserBuilder("paulrduffy@gmail.com"))
-  ->firstName("Paul")
-  ->lastName("Duffy")
-  ->custom(["groups" => "beta_testers"]);
-
-$user = $builder.build();
-
-if ($client->toggle("secret-feature", $user, false)) {
-  // application code to show the feature
-  echo "Showing your feature to " . $user->key . "\n";
-} else {
-  // the code to run if the feature is off
-  echo "Not showing your feature to " . $user->key . "\n";
-}
-
-$client->flush();
-
-?>
 
 </html>
 
