@@ -11,10 +11,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-    <body bgcolor="#0000FF">
+    <body bgcolor="#FF0000">
         <div class="container">
             <div class="hero-unit">
-                <h1><font face="verdana" color="yellow">Simple PHP Test Application...</font></h1>
+                <h1><font face="verdana" color="yellow">Quite Simple PHP Test Application...</font></h1>
                 <br>
                 <p><font face="verdana" color="yellow" size="5">This simple PHP test application was deployed in a Runnable Sandbox!</font></p>
                 <br>
